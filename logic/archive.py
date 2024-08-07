@@ -22,7 +22,7 @@ class Archive:
         self.UV_TOKEN: str = 'u<u>_v<v>'
         self.WORKSPACE_TOKEN: str = '<ws>'
         self.RIB_STRING: str = 'rib'
-        self.MAYA_PROJECT_DIRPATH: str = r'\\GANDALF\3d4_23_24\COUPDESOLEIL\02_ressource\@DAVID\ARCHIVAGE\ArchivingTools\project_files\maya'
+        self.MAYA_PROJECT_DIRPATH: str = r'\\GANDALF\3d4_23_24\COUPDESOLEIL\02_ressource\@DAVID\ARCHIVAGE\Archive\project_files\maya'
 
         self.logger: Logger = Logger()
         self.LOG_PATH: str = os.path.join(self.ARCHIVE_PATH, 'archive.log')
